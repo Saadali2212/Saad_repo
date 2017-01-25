@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saada.project_idea.activities.AddCallActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+
+        android:id="@+id/imageView1"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/my_tool"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/log" />
+
+    <RelativeLayout
+        android:id="@+id/RL"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView1"
+        android:padding="30dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Phone number:"
+            android:textColor="@color/colorPrimary" />
+
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/bCPhone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView2"
+            android:background="@drawable/roundedittext"
+            android:inputType="phone"></EditText>
+
+        <ImageButton
+            android:id="@+id/bCPhone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView2"
+            android:background="@drawable/addsmsb" />
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/etPhone"
+            android:layout_marginTop="20dp"
+            android:text="Time to sent:"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/bTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundbutton"
+            android:textColor="@color/white"
+            android:text="Time select" />
+
+        <Button
+            android:id="@+id/bStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/bTime"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:textColor="@color/white"
+            android:text="Set" />
+
+        <Button
+            android:id="@+id/bCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/bTime"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:textColor="@color/white"
+            android:text="Cancel" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

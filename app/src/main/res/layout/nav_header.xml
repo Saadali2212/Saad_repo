@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@drawable/material_red"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    android:paddingBottom="@dimen/header_padding_bottom"
+    android:paddingTop="@dimen/header_padding_top">
+     
+
+    <ImageView
+
+        android:layout_width="@dimen/header_imageView"
+        android:layout_height="@dimen/header_imageView"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/userw"
+        android:backgroundTint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/header_textview_padding_top"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:textSize="@dimen/header_textview_textsize" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+
+
+</LinearLayout>
+

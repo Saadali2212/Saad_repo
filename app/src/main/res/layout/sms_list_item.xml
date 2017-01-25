@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:paddingLeft="@dimen/card_padding"
+    android:paddingRight="@dimen/card_padding">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:orientation="horizontal"
+        android:padding="@dimen/item_layout_padding">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/im"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/smsx"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dfsdf"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_size" />
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dfsdf"
+
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_size" />
+            <TextView
+                android:id="@+id/date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dfsdf"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_size" />
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dfsdf"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
